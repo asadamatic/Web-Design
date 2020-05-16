@@ -1,0 +1,81 @@
+.formContainer {
+    height: 300px;
+    width: 1354px;
+    padding-top: 80px;
+    background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+    background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+    background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+} 
+
+.contactForm {
+    height: 300px;
+    width: 1054px;
+    margin-left: 250px;
+    margin-right: 150px;
+ 
+
+}
+
+.fullName {
+    padding-right: 50px;
+}
+
+.companyName {
+    padding-right: 56px;
+}
+
+.companyEmail {
+    padding-right: 90px;
+}
+
+.companyPhone {
+    padding-right: 85px;
+}
+
+.companyWebsite {
+    padding-right: 66px;
+}
+
+.advertisingPlans {
+    padding-right: 103px;
+}
+
+.plans {
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 112px;
+    height: 20px;
+}
+
+
+.submit {
+    background-color: #ffffff;
+    color: #4394f4;
+    width: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 112px;
+    height: 30px;
+    margin-left: 365px;
+    
+}
+
+.submit:hover {
+    background-color: #4394f4ff;
+    color: #ffffff;
+
+}
+
+.contactForm input {
+    width: 200px;
+    margin-right: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 112px;
+    height: 20px;
+}
+
+label {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

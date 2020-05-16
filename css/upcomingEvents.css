@@ -1,0 +1,43 @@
+.upcomingEvents {
+    height: 500px;
+    margin-top: 80px;
+    width: 1354px;
+
+}
+
+.upcomingEvents h2 {
+    text-align: center;
+}
+
+.events {
+    margin-left: 10px;
+    
+}
+
+.events img {
+    padding: 30px;
+}
+
+.eventNames {
+    height: 80px;
+    margin-top: 60px;
+    position: relative;
+}
+.event1 {
+    float: left;
+}
+
+.event2 {
+    float: left;
+}
+.event3 {
+    float: left;
+}
+.event4 {
+    float: left;
+}
+.eventNames p{
+
+    text-align: center;
+}
+

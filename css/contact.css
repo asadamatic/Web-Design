@@ -1,0 +1,31 @@
+.contact {
+    height: 550px;
+	width: 1354px;	
+	padding-bottom: 80px;
+}
+
+.contactDetails {
+	padding-left: 400px;
+	padding-bottom: 80px;
+}
+
+
+.address {
+    float: left;
+}
+
+
+.phone {
+    padding-left: 500px;
+    
+}
+
+.contact h2 {
+	text-align: center;
+
+}
+
+.contact a{
+	color: #000000;
+}
+

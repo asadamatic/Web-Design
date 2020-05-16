@@ -1,0 +1,128 @@
+body {
+    background-color:#ffffff;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 1354px;
+    height: 500px;
+   
+}
+
+#slider {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 500px;
+    width: 4080px;
+    animation-name: slideranimation;
+    animation-duration: 40s;
+
+
+}
+
+#slider #row {
+    position: absolute;
+    animation-name: row-animation;
+    animation-duration: 40s;
+}
+
+@keyframes row-animation{
+    
+    0%{
+        left: 0px;
+    }
+    20%{
+        left: 0px;
+    }
+    25%{
+        left: 1354px;
+    }
+    45%{
+        left: 1354px;
+    }
+    50%{
+        left: 2736px;
+    }
+}
+
+#slider #row #name {
+    float: left;
+    padding-left: 100px;
+    padding-top: 7.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: pink;
+}
+
+
+
+
+#slider #row #main-menu {
+    
+    list-style: none;
+    margin-left: 800px;
+    padding-top: 7.5px;
+    
+}
+
+
+
+#slider #row #main-menu li {
+    display: inline-block;
+    height: 25px;
+    padding: 10px 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-size: 15px; 
+    color: #ffffff;
+    
+}
+#slider #row #main-menu a:hover li {
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+
+
+
+@keyframes slideranimation{
+
+    0%{
+        left: 0px;
+    }
+    20%{
+        left: 0px;
+    }
+    25%{
+        left: -1354px;
+    }
+    45%{
+        left: -1354px;
+    }
+    50%{
+        left: -2708px;
+    }
+    
+     
+
+}
+
+#slider img{
+    float: left;
+}
+
+
+
+h2 {
+    color: #4394f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
